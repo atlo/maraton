@@ -1,0 +1,33 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.6534 -0.757 0.6147 0.5306 -12.6027 558.513)" fy="320.6887" fx="518.4326" r="60.9887" cy="323.4214" cx="537.2449" id="SVGID_1_">
+   <stop stop-color="#F9ED32" offset="0"/>
+   <stop stop-color="#F8D939" offset="0.061477"/>
+   <stop stop-color="#F5A54D" offset="0.1874"/>
+   <stop stop-color="#F0536C" offset="0.365"/>
+   <stop stop-color="#EE2A7B" offset="0.4486"/>
+   <stop stop-color="#9E2AA7" offset="0.5994"/>
+   <stop stop-color="#5B2ACD" offset="0.7418"/>
+   <stop stop-color="#2A2AE8" offset="0.86"/>
+   <stop stop-color="#0B2AF9" offset="0.9496"/>
+   <stop stop-color="#002AFF" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="602" y="-1" x="-1"/>
+ </g>
+ <g transform="translate(-1,-2)">
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_73">
+   <g stroke="null" id="svg_74">
+    <path stroke="null" id="svg_75" d="m35.6,31.8c0,2.8 -2.3,5.1 -5.1,5.1l-19.7,0c-2.8,0 -5.1,-2.3 -5.1,-5.1l0,-19.7c0,-2.8 2.3,-5.1 5.1,-5.1l19.7,0c2.8,0 5.1,2.3 5.1,5.1l0,19.7z" fill="#7BC5F8"/>
+   </g>
+   <g stroke="null" id="svg_76">
+    <polygon stroke="null" id="svg_77" points="31.0999755859375,13.70001220703125 31.0999755859375,13.70001220703125 31.0999755859375,13.70001220703125 " fill="#FFFFFF"/>
+    <path stroke="null" id="svg_78" d="m30.3,15.8c-0.5,0.1 -0.8,0.1 -0.8,0.1l0,-0.1c0.4,-0.3 1.5,-1.4 1.6,-1.9c0.1,-0.2 0,-0.3 0,-0.3l-1.4,0.6l-1.1,0.5l0,0c-0.8,-0.8 -2,-1.4 -3.3,-1.4c-2.4,0 -4.3,1.7 -4.3,3.8c0,0.4 0.1,1.1 0.2,1.4c0,0.1 0,-0.1 0,0c-1.5,0 -3.5,-0.7 -5.2,-1.6c-3.4,-1.7 -3.7,-3 -3.7,-3c-0.5,0.6 -0.8,2.5 -0.3,4c0.4,1 1.6,1.8 1.6,1.8l0,0c0,0 -0.5,0 -1.1,-0.2c-0.6,-0.2 -0.8,-0.4 -0.8,-0.4c-0.3,0.8 0.3,2.3 1.5,3.3c0.7,0.6 1.9,1 1.9,1l-1.9,0.1c-0.1,1.9 4,3 4,3l0,0c-1.2,0.9 -2.6,1.5 -4.1,1.5c-0.8,0 -1.5,-0.1 -2.2,-0.3c2,1.6 4.5,2.7 7.2,2.6c7.2,-0.4 11.3,-6.6 11.5,-12.7l0,0c0,0 0.3,-0.2 1.1,-0.9c0.7,-0.7 1.2,-1.6 1.2,-1.6s-1.2,0.6 -1.6,0.7z" fill="#FFFFFF"/>
+    <path stroke="null" id="svg_79" d="m31.1,13.7c0,0.1 0,0 0,0l0,0z" fill="#FFFFFF"/>
+   </g>
+  </g>
+ </g>
+</svg>

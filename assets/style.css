@@ -1,0 +1,368 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.sparMaraton2018-wrapper {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sparMaraton2018-wrapper > div:nth-child(1) {
+    background: #E6E6E6;
+    height: 3em;
+}
+
+.sparMaraton2018-footer {
+    background: #E6E6E6;
+    text-align: center;
+    line-height: 2em;
+}
+
+.sparMaraton2018-footer > div {
+    font-size: 0.8em;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: left;
+}
+
+.sparMaraton2018-wrapper > div:nth-child(2) {
+    display: flex;
+    font-size: 1em;
+    max-width: 1280px;
+    text-align: left;
+    margin: 0 auto 2em auto;
+}
+
+.sparMaraton2018-container-left {
+    width: 60%;
+    padding: 2em 1em 1em 1em;
+    box-sizing: border-box;
+    background: #fff;
+    color: #222222;
+}
+
+.sparMaraton2018-container-right {
+    width: 40%;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.sparMaraton2018-title {
+    font-family: "Lora", serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 0 1em 0;
+}
+
+.sparMaraton2018-description {
+    line-height: 1.6em;
+}
+
+.sparMaraton2018-share-wrapper {
+    padding: 0 0 1em 0;
+    margin: 0 0 0 -0.4em;
+}
+
+.sparMaraton2018-share-wrapper a span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sparMaraton2018-user-guide {
+    padding: 0 0 1em 0;
+    line-height: 1.6em;
+}
+
+.sparMaraton2018-filters {
+    padding: 0 0 2em 0;
+}
+
+.sparMaraton2018-filters .radios input[type="radio"] {
+    display: none;
+}
+
+.sparMaraton2018-filters .radios label {
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.sparMaraton2018-filters .radios label:before {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+    border: solid 2px #CFE0E9;
+}
+
+.sparMaraton2018-filters .radios label:before {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 2px;
+    left: 1px;
+    position: relative;
+    background-color: #CFE0E9;
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+    -webkit-box-shadow: -1px 1px 0px 1px rgba(102,102,102,.5);
+    -moz-box-shadow: -1px 1px 0px 1px rgba(102,102,102,.5);
+    box-shadow: -1px 1px 0px 1px rgba(102,102,102,.5);
+}
+
+.sparMaraton2018-filters .radios input[type='radio']:checked + label:before {
+    background-color: #0F6493;
+    border: 2px solid white;
+}
+
+.sparMaraton2018-filters input[type=number],
+.sparMaraton2018-filters input[type=text] {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+    background: #CFE0E9;
+}
+
+.sparMaraton2018-filters input[type=number]::-webkit-inner-spin-button,
+.sparMaraton2018-filters input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.sparMaraton2018-filter-sex {
+    padding: 0 0 1em 0;
+}
+
+.sparMaraton2018-filter-sex > div:first-child {
+    text-transform: uppercase;
+}
+
+.sparMaraton2018-filter-sex > div:nth-child(1) {
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-filter-sex > div:nth-child(2) {
+    display: flex
+}
+
+.sparMaraton2018-filter-sex > div:nth-child(2) > div {
+    margin: 0 1em 0 0;
+}
+
+.sparMaraton2018-filter-age {
+    padding: 0 0 1em 0;
+}
+
+.sparMaraton2018-filter-age > div:first-child {
+    text-transform: uppercase;
+}
+
+.sparMaraton2018-filter-age > div:nth-child(1) {
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-filter-age > div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sparMaraton2018-filter-age > div:nth-child(2) > div {
+    margin: 0 1em 0 0;
+}
+
+.sparMaraton2018-filter-race-id {
+    padding: 0 0 1em 0;
+}
+
+.sparMaraton2018-filter-race-id > div:first-child {
+    text-transform: uppercase;
+}
+
+.sparMaraton2018-filter-race-id > div:nth-child(1) {
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-filter-race-time {
+    padding: 0 0 1em 0;
+}
+
+.sparMaraton2018-filter-race-time > div:first-child {
+    text-transform: uppercase;
+}
+
+.sparMaraton2018-filter-race-time > div:nth-child(1) {
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-current-time {
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-timeline {
+    width: 100%;
+    background: #E6E6E6;
+    height: 1.5em;
+    -webkit-box-shadow: -2px 2px 0px 0px rgba(190, 190, 188, 1);
+    -moz-box-shadow: -2px 2px 0px 0px rgba(190, 190, 188, 1);
+    box-shadow: -2px 2px 0px 0px rgba(190, 190, 188, 1);
+}
+
+.sparMaraton2018-draggable {
+    background: #3397C4;
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.sparMaraton2018-draggable-trail {
+    background: #3397C4;
+    position: absolute;
+    height: 1.5em;
+}
+
+.sparMaraton2018-timeline-wrapper {
+    margin: 0 0 0.5em 0;
+}
+
+.sparMaraton2018-timeline-controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0 0.5em 0;
+}
+
+
+.sparMaraton2018-timeline-controls > button,
+.sparMaraton2018-timeline-controls > div {
+    margin: 0 1em 0 0;
+}
+
+.sparMaraton2018-timeline-controls button {
+    padding: 8px;
+    background: #fff;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #222;
+    cursor: pointer;
+}
+
+.sparMaraton2018-timeline-controls button.active {
+    background: #CFE0E9;
+}
+
+.sparMaraton2018-timeline-controls button {
+    cursor: pointer;
+}
+
+.sparMaraton2018-timeline-speed-label {
+    padding: 10px;
+}
+
+.sparMaraton2018-timeline-controls-stop,
+.sparMaraton2018-timeline-controls-start {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    cursor: pointer;
+}
+
+.sparMaraton2018-timeline-controls .sparMaraton2018-timeline-controls-start {
+    display: none;
+    background: url('start.svg') center no-repeat;
+    background-size: contain;
+}
+
+.sparMaraton2018-timeline-controls .sparMaraton2018-timeline-controls-stop {
+    background: url('pause.svg') center no-repeat;
+    background-size: contain;
+}
+
+.remove-container {
+    position: relative;
+    width: 200px;
+}
+
+.sparMaraton2018-filter-remove {
+    display: none;
+    position: absolute;
+    left: 220px;
+    top: 4px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: transparent;
+    color: #0F6493;
+}
+
+.remove-container input {
+    width: 100%;
+}
+
+
+.social-share {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+.current-time {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.social-button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.facebook-button {
+  background: url('./facebook.svg') no-repeat;
+}
+
+.twitter-button {
+  background: url('./twitter.svg') no-repeat;
+}
+
+.instagram-button {
+  background: url('./instagram.svg') no-repeat;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0f6493;
+    font-weight: bold;
+
+}
+
+@media (max-width: 999px) {
+  .sparMaraton2018-wrapper > div:nth-child(2) {
+    flex-wrap: wrap;
+  }
+
+  .sparMaraton2018-container-left,
+  .sparMaraton2018-container-right {
+    width: 100%;
+  }
+}

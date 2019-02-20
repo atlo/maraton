@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Spar maraton 2018</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Robot" rel="stylesheet">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="dist/bundle.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div style="width:100%">
+    <header>
+        <div class="container inline">
+        <div class="inline">
+            <a href="https://atlo.team" class="logo">
+                <img src="assets/atlo.png" alt="Átló logó">
+            </a>
+        </div>
+        </div>
+    </header>
+    <div class="sparMaraton2018-wrapper">
+        <div></div>
+        <div>
+            <div class="sparMaraton2018-container-left">
+                <h1 class="sparMaraton2018-title">
+                    Így futott az ország –Budapest Maraton 2018
+                </h1>
+                <p class="sparMaraton2018-description">
+                    Még csak a felénél járok és kiköpöm a tüdőm. Vajon hol tart most a mezőny eleje és mennyien lehetnek
+                    mögöttem? A lényeg, hogy célba érjek, de azért kiváncsi vagyok, hogy a korosztályom hogyan mozgott
+                    hozzám képest. A versenyen rögzített részidők alapján új perspektívából mutatjuk a 33. Budapest
+                    Marton egyéni futóit.
+                </p>
+                <div class="social-share inline">
+                    <span>megosztom: </span>
+                    <button type="button" class="social-button facebook-button"></button>
+                    <button type="button" class="social-button twitter-button"></button>
+                    <button type="button" class="social-button instagram-button"></button>
+                </div>
+                <p class="sparMaraton2018-user-guide">
+                    Minden kis pont egy-egy futót jelöl. Az alábbi kapcsolók segítségével tetszőlegesen szűrheted a
+                    mezőnyt. Ha ott voltál ok-tóber elején a rakparton, rajtszámod megadásával visszajátszhatod futásod.
+                    Ha csak lélekben futottál együtt a többiekkel, akkor az átlagos tempód megadása után láthatod,
+                    hogyan szerepeltél volna.
+                </p>
+                <div class="sparMaraton2018-filters">
+                    <div class="sparMaraton2018-filter-sex">
+                        <label class="form-label">Nem:</label>
+                        <div class="radios">
+                            <input type="radio" name="sex" value="all" id="all" checked/><label for="all">Összes</label>
+                            <input type="radio" name="sex" value="male" id="male" /><label for="male">Férfi</label>
+                            <input type="radio" name="sex" value="female" id="female" /><label for="female">Nő</label>
+                        </div>
+                    </div>
+                    <div class="sparMaraton2018-filter-age">
+                        <label class="form-label">Kor:</label>
+                        <div class="radios">
+                            <input type="radio" name="age" value="all" id="age-all" checked/><label for="age-all">Összes</label>
+                            <input type="radio" name="age" value="1" id="age-1"/><label for="age-1">0-18</label>
+                            <input type="radio" name="age" value="2" id="age-2"/><label for="age-2">19-35</label>
+                            <input type="radio" name="age" value="3" id="age-3"/><label for="age-3">36-45</label>
+                            <input type="radio" name="age" value="4" id="age-4"/><label for="age-4">46-60</label>
+                            <input type="radio" name="age" value="5" id="age-5"/><label for="age-5">60+</label>
+                        </div>
+                    </div>
+                    <div class="sparMaraton2018-filter-race-id">
+                        <label class="form-label">Rajtszám:</label>
+                        <div class="remove-container">
+                            <div class="sparMaraton2018-filter-remove sparMaraton2018-filter-remove-raceId">✖</div>
+                            <input type="number" name="raceId"/>
+                        </div>
+                    </div>
+                    <div class="sparMaraton2018-filter-race-time">
+                        <label class="form-label">Saját idő megadása (pl: 4:16:00):</label>
+                        <div class="remove-container">
+                            <div class="sparMaraton2018-filter-remove sparMaraton2018-filter-remove-raceTime">✖</div>
+                            <input type="text" name="raceTime"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="sparMaraton2018-timer">
+                    <div class="sparMaraton2018-current-time">0:00:00</div>
+                    <div class="sparMaraton2018-timeline-wrapper">
+                        <input
+                                style="width:100%"
+                                type="range"
+                                value="0"
+                                min="0"
+                                max="100"
+                                step="1"/>
+                    </div>
+                    <div class="sparMaraton2018-timeline-controls">
+                        <button type="button" class="sparMaraton2018-timeline-controls-stop"></button>
+                        <button type="button" class="sparMaraton2018-timeline-controls-start"></button>
+                        <div class="sparMaraton2018-timeline-speed-label">Lejátszás sebessége:</div>
+                        <button type="button" class="sparMaraton2018-timeline-controls-1">1x</button>
+                        <button type="button" class="sparMaraton2018-timeline-controls-60 active">60x</button>
+                        <button type="button" class="sparMaraton2018-timeline-controls-120">120x</button>
+                        <button type="button" class="sparMaraton2018-timeline-controls-600">600x</button>
+                        <button type="button" class="sparMaraton2018-timeline-controls-10000"
+                           style="display: none;">10000x</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sparMaraton2018-container-right">
+                <canvas class="sparMaraton2018-canvas" style="position:absolute"></canvas>
+                <img class="sparMaraton2018-map" src="assets/map.svg" width="100%"/>
+            </div>
+        </div>
+        <div class="sparMaraton2018-footer">
+            <div>
+                <div>Ötlet: <a href="https://interaktiv.morgenpost.de/berlin-marathon-2016/">Berliner Morgenpost</a></div>
+                <div>Impresszum: ATLO007 Grafika: Mikola Bence, Fejlesztés: <a href="https://twitter.com/butcher__51">Mészáros Gábor</a>, Adat: Putz Orsolya <br>A projekt közpénz felhasználása nélkül készült. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
