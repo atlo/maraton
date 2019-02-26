@@ -2,9 +2,12 @@ import rangeSlider from "rangeslider-pure";
 import data_ from "../assets/data";
 
 var spar2018maraton = () => {
+    function getCurrentWindowHeight () {
+        return window.innerHeight - 30
+    }
+
     function setMapSize (map) {
-        const windowHeight = window.innerHeight - 30
-        map.style.height = `${windowHeight}px`
+        map.style.height = `${getCurrentWindowHeight()}px`
         map.style.width = 'auto';
     }
 
@@ -379,7 +382,7 @@ var spar2018maraton = () => {
     var resize = function (canvas, map) {
         setMapSize(map)
         var displayWidth = map.clientWidth;
-        var displayHeight = windowHeight;
+        var displayHeight = getCurrentWindowHeight();
         if (canvas.width !== displayWidth ||
             canvas.height !== displayHeight) {
             canvas.width = displayWidth;
