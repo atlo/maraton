@@ -2,9 +2,18 @@ import rangeSlider from "rangeslider-pure";
 import data_ from "../assets/data";
 
 var spar2018maraton = () => {
+    function setMapSize (map) {
+        const windowHeight = window.innerHeight - 30
+        map.style.height = `${windowHeight}px`
+        map.style.width = 'auto';
+    }
+
     var canvas = document.querySelector('.sparMaraton2018-canvas'),
         map = document.querySelector('.sparMaraton2018-map'),
         gl = canvas.getContext('webgl', {premultipliedAlpha: false}) || canvas.getContext('experimental-webgl');
+        
+    setMapSize(map)
+
 
     var timer = document.querySelector(".sparMaraton2018-current-time");
 
@@ -368,8 +377,9 @@ var spar2018maraton = () => {
     };
 
     var resize = function (canvas, map) {
+        setMapSize(map)
         var displayWidth = map.clientWidth;
-        var displayHeight = map.clientHeight;
+        var displayHeight = windowHeight;
         if (canvas.width !== displayWidth ||
             canvas.height !== displayHeight) {
             canvas.width = displayWidth;
