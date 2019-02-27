@@ -5,12 +5,11 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .sparMaraton2018-wrapper {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
 }
 
 .sparMaraton2018-wrapper > div:nth-child(1) {
@@ -52,13 +51,15 @@ body {
     width: 40%;
     box-sizing: border-box;
     background: #fff;
+    text-align: center;
 }
 
-.sparMaraton2018-title {
-    font-family: "Lora", serif;
+.sparMaraton2018-wrapper .sparMaraton2018-title {
+    font-family: 'Roboto Slab', serif;
     font-size: 2em;
     font-weight: bold;
     padding: 0 0 1em 0;
+    line-height: 1.5;
 }
 
 .sparMaraton2018-description {
