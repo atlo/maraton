@@ -1,5 +1,6 @@
 import rangeSlider from "rangeslider-pure";
 import data_ from "../assets/data";
+import "./share.js";
 
 var spar2018maraton = () => {
     function getCurrentWindowHeight () {
