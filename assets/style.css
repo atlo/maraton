@@ -371,6 +371,42 @@ footer p {
     line-height: 1.5;
 }
 
+.recommended {
+  width: 95%;
+  max-width: 1280px;
+  margin: 125px auto;
+}
+
+.recommended h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.recommended ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended li {
+  max-width: 260px;
+}
+
+.recommended a,
+.recommended h3 {
+  margin: 16px 0;
+  color: #222;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
+}
+
+.recommended img {
+  width: 100%;
+}
+
 @media (max-width: 999px) {
   .sparMaraton2018-wrapper > div:nth-child(2) {
     flex-wrap: wrap;
@@ -379,5 +415,15 @@ footer p {
   .sparMaraton2018-container-left,
   .sparMaraton2018-container-right {
     width: 100%;
+  }
+
+  .recommended ul {
+    flex-wrap: wrap;
+  }
+ 
+  .recommended li {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
   }
 }
